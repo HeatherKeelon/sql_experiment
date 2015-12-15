@@ -1,0 +1,27 @@
+{
+  "name": "Mongo_Lecture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/app.js"
+  },
+  "author": "Scott Bromander",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.8",
+    "angular-file-upload": "^2.2.0",
+    "body-parser": "^1.14.1",
+    "bootstrap": "^3.3.5",
+    "busboy": "^0.2.12",
+    "express": "^4.13.3",
+    "jquery": "^2.1.4",
+    "mongoose": "^4.2.3",
+    "multer": "^1.1.0",
+    "ng-file-upload": "^10.1.9",
+    "path": "^0.12.7",
+    "pg": "^4.4.3",
+    "pg-copy-streams": "^0.3.0"
+  }
+}

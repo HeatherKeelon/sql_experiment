@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <link rel="stylesheet" href="/vendors/bootstrap.min.css">
+
+    <script type="text/javascript" src="/vendors/angular.js"></script>
+    <script type="text/javascript" src="/vendors/angular.min.js.map"></script>
+    <script type="text/javascript" src="/vendors/ng-file-upload.min.js"></script>
+    <script type="text/javascript" src="/assets/scripts/app.js"></script>
+</head>
+<body>
+
+<form ng-controller="MyCtrl" name="form" method="post" enctype="multipart/form-data">
+    <input type="file" ngf-select="" ng-model="picFile" name="file" required="" class="ng-pristine ng-invalid ng-invalid-required">
+    <button ng-click="upload(picFile)">Submit</button>
+
+</form>
+</body>
+</html>
